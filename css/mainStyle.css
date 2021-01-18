@@ -9,12 +9,12 @@
 html {
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
-    /* min-width: 1080px; */
+    min-width: 1080px;
     width: 100%;
   }
 
 body{
-    /* min-width: 1080px; */
+    min-width: 1080px;
     width: 100%;
     height: fit-content;
 }
@@ -41,7 +41,7 @@ body{
 #rowContainer{
     height: fit-content;
     width: 100%;
-    /* min-width: 1080; */
+    min-width: 1080;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -86,19 +86,23 @@ body{
     letter-spacing: 1.8px;
     line-height: 2;
     margin-left: 30px;
+    padding: 0 0 3px 0;
 }
 
+#mainnav li a:hover{
+    color: #004752;
+}
 
 
 /*main container*/
 #mainContainer{
     width: 100%;
     text-align: center;
-    /* min-width: 1080px; */
+    min-width: 1080px;
 }
 
 #coverContainer{
-    /* min-width: 1080px; */
+    min-width: 1080px;
     margin: 0 auto;
     width: 100%;
     max-height: 500px;
@@ -122,6 +126,9 @@ body{
     /* margin-top: 20px;
     height: 400px; */
     box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    background-color: rgb(211, 210, 210);
 }
 
 /* default to hide image  */
@@ -129,11 +136,11 @@ body{
     display: none; 
     /* border-radius: 30px; */
     box-shadow: 0 30px 40px rgba(0,0,0,.1);
-    margin-bottom: 0;
 }
 
 .slideImage img{
     width: 100%;
+   
 }
 
 /* next & prev buttons */
@@ -144,7 +151,9 @@ body{
     color: #FFA500;
     font-weight: bold;
     font-size: 50px;
-    margin-top: -45%;
+    /* margin-top: -45%; */
+    /* bottom: -45%; */
+    top: 45%;
     padding: 16px;
     outline: 0 none;
 }
@@ -161,7 +170,7 @@ body{
 .strip-container{
     position: absolute;
     bottom: 0;
-    left: 30vw;
+    left: 45%;
 }
 
 .strip{
@@ -195,8 +204,8 @@ body{
 
 #coverFormContainer{
     background-color: #01434d;
-    width: 30vw;
-    height: 45vw;
+    width: 30%;
+    height: 500px;
     /* padding-top: 40px; */
     color: aliceblue;
     display: flex;
@@ -349,7 +358,7 @@ body{
 #produkContainer{
     height: fit-content;
     width: 100%;
-    /* min-width: 1080px; */
+    min-width: 1080px;
     padding: 60px 0;
     padding-bottom: 100px;
     background-color: white;
@@ -402,7 +411,7 @@ body{
 
 #footerContainer{
     width: 100%;
-    /* min-width: 1080px; */
+    min-width: 1080px;
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -454,7 +463,7 @@ body{
 
 #copyrightContainer{
     width: 100%;
-    /* min-width: 1080; */
+    min-width: 1080;
     height: fit-content;
     background-color: black;
 }

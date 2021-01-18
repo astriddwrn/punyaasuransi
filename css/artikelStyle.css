@@ -1,0 +1,79 @@
+.background-artikel{
+    background-image: url("/resources/background/background-artikel.jpg");
+}
+
+.artikel-container{
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.artikel-container .title{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.artikel-container .main-image{
+    margin: 20px 0;
+}
+
+.artikel-container .main-image img{
+    width: 800px;
+    
+}
+
+.artikel-container p{
+    margin: 0 0 15px 0;
+}
+
+.artikel-container .bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.artikel-container ul{
+    margin: 0 0 15px 0;
+    padding: 0 0 0 20px;
+}
+
+.artikel-container .sumber{
+    color: gray;
+    font-size: 15px;
+    margin: 30px 0 0 0;
+}
+
+.artikelmain-container{
+    margin: 20px auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artikelmain-container .box{
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px #888888;
+    margin: 10px;
+    height: 320px;
+    cursor: pointer;
+}
+
+.artikelmain-container .box:hover{
+    background-color:wheat;
+}
+
+.artikelmain-container .image img{
+    width: 300px;
+}
+
+.artikelmain-container .title{
+    width: 300px;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto 0;
+}

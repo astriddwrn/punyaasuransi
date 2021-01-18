@@ -1,0 +1,50 @@
+.background-kontak{
+    background-image: url("/resources/background/background-kontak.jpg");
+    background-position: auto 800;
+}
+
+.call-container{
+    background-color: #F8B858;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #01434d;
+}
+
+.call-container .title{
+    font-size: 30px;
+    margin: 15px;
+    color:  #007284;
+}
+
+.call-container .content{
+    font-size: 30px;
+    font-weight: bold;
+    color:  #004a55;
+}
+
+.informasi-container{
+    margin: 50px 0 50px 0;
+}
+
+.informasi-container .profile img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.informasi-container .name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.informasi-container .text{
+    text-align: left;
+    margin: 10px auto;
+    width: 700px;
+}
+
+.informasi-container .bold{
+    margin: 10px 0 0 0;
+    
+}

@@ -11,7 +11,8 @@
 .tentang .text-container{
     display: flex;
     flex-direction: column;
-    width: 650px;
+    width: 80%;
+    max-width: 800px;
     margin: 20px auto;
 }
 
